@@ -1,0 +1,1 @@
+SELECT table_persons.id, table_persons.name_persons, table_hobbies.name_hobbies FROM table_persons table_hobbies JOIN products p USING(id)
